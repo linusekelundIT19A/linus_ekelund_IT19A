@@ -39,15 +39,22 @@
     <section>
 <body>
     <div>
-     <form action="mailto:linus.ekelund03@gmail.com" method="get">  
-    <label for="email" email></label>
-    <input type="email" placeholder="e-post" name="email" id="email" required>
-    <label for="psw" password></label>
-    <input type="password" placeholder="Lösenord" name="psw" id="psw" required>
-     
-    <label for="text" text></label>
-    <input type="text"placeholder="text" name="text" id="text">
-    <input type="button" value="Click me" onclick="msg()">
+     <form action="mailto:linus.ekelund03@gmail.com" method="get"> 
+        <table>
+       <b>Email:</b>
+       <label for="email" email></label>
+       <input type="email" placeholder="e-post" name="email" id="email" required>
+       <br>
+       <b>Lösenord:</b>
+       <label for="psw" password></label>
+       <input type="password" placeholder="Lösenord" name="psw" id="psw" required>
+     <br>
+     <b>Upprepa ditt Lösenord:</b> 
+    <label for="repeat" repeat></label>
+    <input type="repeat"placeholder="repeat" name="repeat" id="repeat">
+    </table>
+    <br>
+    <input type="button" value="Log in" onclick="msg()">
     <div id="radio">
         <input type="radio" id="man" name="gender" value="man">
         <label for="man">man</label><br>
@@ -57,10 +64,13 @@
         <label for="annat">annat</label>
     </div>
     <br>
-    <label for="date" date></label>
-    <input type="date" placeholder="date" name="date" id="date">
     <label for="submit" submit></label>
     <input type="submit" placeholder="submit" name="submit" id="submit">
+    
+    <br>
+    <label for="date" date></label>
+    <input type="date" placeholder="date" name="date" id="date">
+    <br>
     <label for="reset" reset></label>
     <input type="reset" placeholder="reset" name="reset" id="reset">
 </form> 
