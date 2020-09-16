@@ -40,18 +40,22 @@
 <body>
     <div>
      <form action="mailto:linus.ekelund03@gmail.com" method="get"> 
-        <table>
-       <b>Email:</b>
-       <label for="email" email></label>
-       <input type="email" placeholder="e-post" name="email" id="email" required>
-       <br>
-       <b>Lösenord:</b>
-       <label for="psw" password></label>
-       <input type="password" placeholder="Lösenord" name="psw" id="psw" required>
-     <br>
-     <b>Upprepa ditt Lösenord:</b> 
-    <label for="repeat" repeat></label>
-    <input type="repeat"placeholder="repeat" name="repeat" id="repeat">
+<table>
+    <tr>
+    <td><b>Email:</b></td>
+    <td> <label for="email" email></label>
+     <input type="email" placeholder="e-post" name="email" id="email" required>
+    </td></tr>
+     <tr>
+     <td><b>Lösenord:</b></td>
+     <td><label for="psw" password></label>
+     <input type="password" placeholder="Lösenord" name="psw" id="psw" required></td>
+    </tr>
+     <tr>
+     <td><b>Upprepa ditt Lösenord:</b></td>
+    <td><label for="repeat" repeat></label>
+    <input type="repeat"placeholder="repeat" name="repeat" id="repeat"></td>
+   </tr>
     </table>
     <br>
     <input type="button" value="Log in" onclick="msg()">
