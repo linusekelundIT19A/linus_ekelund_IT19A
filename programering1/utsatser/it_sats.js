@@ -5,7 +5,7 @@ console.log(`${tal%2}`)
 
 
 if(tal > 0){
-    console.log("posetift")
+    console.log("posetivt")
 }else if (tal ==0){
     console.log ("Talet är 0")
 }
