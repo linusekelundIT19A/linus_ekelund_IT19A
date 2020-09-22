@@ -1,9 +1,9 @@
 // bagage //
 // vikt
 let vikt = prompt ("hur mycket kg väger ditt bagage")
-if(vikt > 5){
+if(vikt > 8){
     console.log("ditt bage är för tungt")
-}else if (vikt ==5){
+}else if (vikt ==8){
     console.log ("den väger precis")
 }
 else {
