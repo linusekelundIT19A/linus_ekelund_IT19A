@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="linus2.css"/>
+</head>
+<body>
+
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe">
+      </form>
+
+
+
+    <form action="mailto:linus.ekelund03@gmail.com" method="get"> 
+        <table>
+            <tr>
+            
+            <td> <label for="email" email></label>
+             <input type="email" placeholder="e-post" name="email" id="email" required>
+            </td></tr>
+             <tr>
+             <td><b>Lösenord:</b></td>
+             <td><label for="psw" password></label>
+             <input type="password" placeholder="Lösenord" name="psw" id="psw" required></td>
+            </tr>
+             <tr>
+             
+            <td><label for="repeat" repeat>Upprepa ditt Lösenord:</label></td>
+            <td><<input type="repeat"placeholder="repeat" name="repeat" id="repeat"></td>
+           </tr>
+           
+            <br>
+            <input type="button" value="Log in" onclick="msg()">
+            <div id="radio">
+                <input type="radio" id="man" name="gender" value="man">
+                <label for="man">man</label><br>
+                <input type="radio" id="kvinna" name="kön" value="kvinna">
+                <label for="kvinna"> kvinna</label><br>
+                <input type="radio" id="annat" name="kön" value="annat">
+                <label for="annat">annat</label>
+            </div>
+            <br>
+            <label for="submit" submit></label>
+            <input type="submit" placeholder="submit" name="submit" id="submit">
+            
+            <br>
+            <label for="date" date></label>
+            <input type="date" placeholder="date" name="date" id="date">
+            <br>
+        </table>
+            <label for="reset" reset></label>
+            <input type="reset" placeholder="reset" name="reset" id="reset">
+        </form> 
+        
+</body>
+</html>
