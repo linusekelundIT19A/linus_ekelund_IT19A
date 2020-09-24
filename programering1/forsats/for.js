@@ -13,6 +13,7 @@ for(let j = 10; j>0; j--){
     p_talserie2.innerHTML += `${j} `
 }
 let p_summa = document.querySelector("#summa")
+let summa = 0
  for (let i=0; i<=10; i++){
    summa +=i;  
  } 
