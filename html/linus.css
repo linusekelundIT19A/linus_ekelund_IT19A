@@ -1,0 +1,14 @@
+form{
+    background-color: rgb(118, 80, 255);
+    border: 25px solid rgb(170, 31, 135);
+    width: 35%;
+    padding: 2%;
+    margin: auto;
+}
+h1 {color:white;}
+b {color:mediumspringgreen;}
+h2 {color:rgb(24, 104, 209);}
+li {color:goldenrod;}
+td {color:indianred}
+a {color:lightpink;}
+#radio {color:chartreuse}

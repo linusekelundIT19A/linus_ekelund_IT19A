@@ -6,19 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linus hemsida</title>
     <style>
-     h1 {color:white;}
-     b {color:mediumspringgreen;}
-     h2 {color:rgb(24, 104, 209);}
-    li {color:goldenrod;}
-    td {color:indianred}
-    a {color:lightpink;}
-    
-  
-       
-
-   #radio {
-       color:chartreuse
-   }
     </style>
 </head>
 <body>
@@ -38,45 +25,23 @@
 <body>
     <div>
      <form action="mailto:linus.ekelund03@gmail.com" method="get"> 
-<table>
-    <tr>
-    <div id="id"> 
-    <td><b>Email:</b></td>
-    <td> <label for="email" email></label>
-     <input type="email" placeholder="e-post" name="email" id="email" required>
-    </td></tr>
-     <tr>
-     <td><b>Lösenord:</b></td>
-     <td><label for="psw" password></label>
-     <input type="password" placeholder="Lösenord" name="psw" id="psw" required></td>
-    </tr>
-     <tr>
-     <td><b>Upprepa ditt Lösenord:</b></td>
-    <td><label for="repeat" repeat></label>
-    <input type="repeat"placeholder="repeat" name="repeat" id="repeat"></td>
-   </tr>
-   </table>
-    <br>
-    <input type="button" value="Log in" onclick="msg()">
-    <div id="radio">
-        <input type="radio" id="man" name="gender" value="man">
-        <label for="man">man</label><br>
-        <input type="radio" id="kvinna" name="kön" value="kvinna">
-        <label for="kvinna"> kvinna</label><br>
-        <input type="radio" id="annat" name="kön" value="annat">
-        <label for="annat">annat</label>
-    </div>
-    <br>
-    <label for="submit" submit></label>
-    <input type="submit" placeholder="submit" name="submit" id="submit">
-    
-    <br>
-    <label for="date" date></label>
-    <input type="date" placeholder="date" name="date" id="date">
-    <br>
-    <label for="reset" reset></label>
-    <input type="reset" placeholder="reset" name="reset" id="reset">
-</form> 
+        <form>
+            <label for="email">email:</label><br>
+            <input type="email" placeholder="e-post" name="email" id="email" required><br>
+            <label for="password">password:</label><br>
+            <input type="password" placeholder="Lösenord" name="psw" id="psw" required><br>
+            <label for="man">man</label>
+            <input type="radio" id="man" name="gender" value="man"><br>
+            <label for="kvinna">kvinna</label>
+            <input type="radio" id="kvinna" name="gender" value="kvinna"><br>
+            <label for="annat">annat</label>
+            <input type="radio" id="annat" name="gender" value="annat"><br>
+            <label for="date" date></label>
+            <input type="date" placeholder="date" name="date" id="date"><br>
+            <label for="reset" reset></label>
+            <input type="reset" placeholder="reset" name="reset" id="reset">
+            <input type="button" value="Log in" onclick="msg()">
+          </form>
 
 </div>
 </div>
