@@ -1,4 +1,5 @@
 
+let p_klass = document.querySelector("#klasslistan")
 for(let i = 0; i<5; i++){
 console.log (`${i}.i will not write all over the walls`)}
 
@@ -19,3 +20,13 @@ let summa = 0
  } 
  p_summa.innerHTML += `1 + 2 + 3 +...+9+10 = ${summa}`   
 console.log (summa)
+
+let elever = ["Linus", "Maz", "Sebbe", "Elis", "Rasmus"]
+p_klass.innerHTML = "klass IT 19A innhåller följande elever <br/>"
+
+console.log(elever.length)
+
+for (let k = 0; k < elever.length; k++){
+p_klass.innerHTML += `${k+1} . ${elever[k]} <br/>` 
+}
+
