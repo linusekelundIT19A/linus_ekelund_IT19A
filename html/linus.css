@@ -1,7 +1,7 @@
 form{
     background-color: rgb(118, 80, 255);
     border: 25px solid rgb(170, 31, 135);
-    width: 35%;
+    width: 20%;
     padding: 2%;
     margin: auto;
 }
@@ -12,3 +12,6 @@ li {color:goldenrod;}
 td {color:indianred}
 a {color:lightpink;}
 #radio {color:chartreuse}
+image {
+    text-align: center;
+}
