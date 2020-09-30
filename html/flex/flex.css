@@ -31,3 +31,23 @@ footer{
       flex-direction:column;
     }
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: bisque;
+  }
+  
+  li a {
+    display: block;
+    color: rgba(0, 0, 0, 0.644);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: beige;
+    color: black;
+  }
