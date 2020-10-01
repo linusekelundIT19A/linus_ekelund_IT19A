@@ -12,7 +12,7 @@ let p_lektioner = document.querySelector("#lektioner")
 
 
 let lektioner = ["Svenska", "Engelska", "Programmering", "Matematik", "Idrott"]
-p_klass.innerHTML = "Mina lektioner är: <br/>"
+p_lektioner.innerHTML = "Mina lektioner är: <br/>"
 
 console.log(lektioner.length)
 
