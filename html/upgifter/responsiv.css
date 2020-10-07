@@ -19,9 +19,7 @@ nav{
 article{
     flex:3;
 }
-aside{
-    flex:1;
-}
+
 footer{
 
 }
@@ -48,6 +46,6 @@ footer{
   
   /* Change the link color on hover */
   li a:hover {
-    background-color: beige;
+    background-color: orangered;
     color: black;
   }
