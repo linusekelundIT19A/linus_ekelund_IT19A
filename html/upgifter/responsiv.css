@@ -51,5 +51,7 @@ footer{
   }
   /*detta suger */
   .timmystart {
-    max-width: ; 
+    border-radius: 8px ; 
+    max-width: 25%;
+  height: auto;
 }
