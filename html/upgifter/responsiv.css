@@ -51,11 +51,14 @@ footer{
   }
   /*detta suger */
   .timmystart {
+    flex: 1;
     border-radius: 8px ; 
     max-width: 25%;
   height: auto;
- 
 }
-div.Start1{
-  text-align: left;
+.startsid{
+  display: flex;
+}
+.textinfo {
+flex:2;
 }
