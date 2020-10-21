@@ -54,4 +54,8 @@ footer{
     border-radius: 8px ; 
     max-width: 25%;
   height: auto;
+ 
+}
+div.Start1{
+  text-align: left;
 }
