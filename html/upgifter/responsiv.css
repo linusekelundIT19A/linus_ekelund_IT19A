@@ -90,3 +90,9 @@ flex:2;
 .articleavengers{
   flex: 50%;
 }
+.flex{
+  flex: 1;
+  border-radius: 8px ; 
+  max-width: 50%;
+height: auto;
+}
