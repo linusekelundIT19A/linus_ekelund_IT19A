@@ -7,10 +7,8 @@ header, nav, article, aside, footer {
     background-color: bisque;
 }
 /*nav, article, aside wrapper*/
-section{
-    display:flex; 
-    margin:0;
-}
+
+
 /*size of nav, artivle, aside*/
 nav{
     flex:1;
@@ -64,4 +62,31 @@ flex:2;
 }
 .title{
   flex: 0;
+}
+.horizont{
+  display: flex;
+}
+.NavS{
+  flex: 0;
+}
+
+.vertikal {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.sectionstart{ 
+  margin:0;
+  flex:0 ;}
+.tim {
+    display:flex; 
+    margin:0;
+}
+.avengers {
+  flex: 1;
+  border-radius: 8px ;
+  height:150px ;
+  width: 200;
+}
+.articleavengers{
+  flex: 50%;
 }
