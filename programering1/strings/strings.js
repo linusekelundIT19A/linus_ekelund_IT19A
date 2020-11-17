@@ -12,6 +12,23 @@ console.log ("namn:" + namn +"\n" +"ålder" + ålder  +"\n" + "telefon:" + telef
 
 let p_personuppgifter = document.querySelector ("#personuppgifter")
  p_personuppgifter.innerHTML = "namn:" + namn +"<br>" +"ålder" + ålder  +"<br>" + "telefon:" + telefon +"<br>" +"adress" + adress
- let alfabetet = " ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ"
- let bokstav = alfabetet[0]
- console.log(`bokstav på index 0 är: ${bokstav}`)
+ let alfabetet = "ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ"
+ let bokstav1 = alfabetet[0]
+ let bokstav5 = alfabetet [4]
+
+ console.log(`bokstav på index 0 är: ${bokstav1}`)
+ console.log(`bokstav på index 4 är: ${bokstav5}`)
+
+ let antal_bokstäver = alfabetet.length
+ console.log(`antal bokstäver i alfabetet är ${antal_bokstäver}`)
+
+let mening = "Jag läser IT-programent på NTI kronhus i göteborg"
+ function räkna_ord (ord){
+    
+     let res = ord.split(" ");
+     let n = res.length;
+     return n 
+  }
+  console.log (räkna_ord(mening))
+
+  
