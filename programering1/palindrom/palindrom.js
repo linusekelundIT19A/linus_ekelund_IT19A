@@ -21,5 +21,5 @@ function palindrome(str){
 }else{
   return false;
 }
-} 
+}
 palindrome ("eye");
