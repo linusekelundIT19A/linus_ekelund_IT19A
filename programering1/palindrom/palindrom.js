@@ -5,21 +5,23 @@ let p_diplaywords = document.querySelector("#displaywords")
 knapp.addEventListener("click", countWords);
 
 function countWords(){
-console.log("kör funktion countword")
-let text = textArea.value
-console.log(text)
-let word = text.split(" ")
- console.log(word.length)
- p_diplaywords.innerHTML = word.length
+  
+  if (palindrome(textArea.value)){
+    p_diplaywords.innerHTML = "Det är palindrom"
+  } else {
+
+    p_diplaywords.innerHTML = "det är inte palindrom"
+  }
+
 }
 
 
 function palindrome(str){
     let reversed = str.split("").reverse().join("")
     console.log(reversed)
-    if (reversed === str){} return true;
-}else{
-  return false;
+    if (reversed === str) 
+      return true;
+    
+    return false;
 }
-}
-palindrome ("eye");
+
