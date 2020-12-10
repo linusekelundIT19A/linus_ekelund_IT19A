@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./dice.js" defer></script>
 </head>
 <body>
- <div id ="container">
-<h1>Dice game</h1>
+    <div id="container">
+        <h1>Dice game</h1>
+        
+        <div id ="players">
 
-<div id ="Player1">
+            <div id = "player1">
+                <h2>Player 1</h2>
+               
+                <p id = "p1_result"></p>
+                <button id="dice_p1">Dice roll</button>
+            </div> 
 
-    <h2>player1</h2>
-    <p id = "p1:result"></p>
-    <button id="dice_p1">dice roll</button>
-    </div>
-    <div id = "player 2">
-    <h2>player 2</h2>
-    <p id = "p2_result"></p>
-    <button id="dice_p2">dice roll</button>
-    </div>
- </div>
-    
+            <div id = "player2">
+                <h2>Player 2</h2>
+                <p id = "p2_result"></p>
+                
+                <button id="dice_p2">Dice roll</button>
+            </div>
+<button id="vinnare">vinnare selector</button>
+
+        </div> 
 
 
-<script defer src=dice.js></script>    
+    </div> 
 </body>
 </html>
