@@ -6,6 +6,8 @@ let p1_result = document.querySelector("#p1_result")
 let p2_result = document.querySelector("#p2_result")
 let vinnare_btn = document.querySelector("#vinnare")
 
+
+
 dice1_btn.addEventListener("click", diceRoll1)
 dice2_btn.addEventListener("click", diceRoll2)
 vinnare_btn.addEventListener("click", vinnare)
