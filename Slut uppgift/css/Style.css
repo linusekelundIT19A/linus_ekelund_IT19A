@@ -18,9 +18,7 @@ article{
     flex:3;
 }
 
-footer{
 
-}
 /*The @media rule is used in media queries to apply different styles for different media types/devices.*/
 @media only screen and (max-width: 660px) {
     section {
@@ -48,12 +46,6 @@ footer{
     color: black;
   }
 
-  .timmystart {
-    flex: 1;
-    border-radius: 8px ; 
-    max-width: 25%;
-  height: auto;
-}
 .startsid{
   display: flex;
 }
