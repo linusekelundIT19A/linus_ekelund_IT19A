@@ -1,0 +1,98 @@
+body {background-color: white;}
+header, nav, article, aside, footer {
+    border:1px solid rgb(255, 255, 255);
+    text-align:center;
+    background:rgb(255, 255, 255);
+    margin:5px;
+    background-color: rgb(12, 241, 184);
+}
+/*nav, article, aside wrapper*/
+
+
+/*size of nav, artivle, aside*/
+nav{
+    flex:1;
+    
+}
+article{
+    flex:3;
+}
+
+footer{
+
+}
+/*The @media rule is used in media queries to apply different styles for different media types/devices.*/
+@media only screen and (max-width: 660px) {
+    section {
+      flex-direction:column;
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(12, 241, 184);
+  }
+  
+  li a {
+    display: block;
+    color: rgba(0, 0, 0, 0.644);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  li a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .timmystart {
+    flex: 1;
+    border-radius: 8px ; 
+    max-width: 25%;
+  height: auto;
+}
+.startsid{
+  display: flex;
+}
+.textinfo {
+flex:2;
+}
+.title{
+  flex: 0;
+}
+.horizont{
+  display: flex;
+}
+.NavS{
+  flex: 0;
+}
+
+.vertikal {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.sectionstart{ 
+  margin:0;
+  flex:0 ;}
+.tim {
+    display:flex; 
+    margin:0;
+}
+.avengers {
+  flex: 1;
+  border-radius: 8px ;
+  height:150px ;
+  width: 200;
+}
+.articleavengers{
+  flex: 50%;
+}
+.flex{
+  flex: 1;
+  border-radius: 8px ; 
+  max-width: 50%;
+height: auto;
+}
