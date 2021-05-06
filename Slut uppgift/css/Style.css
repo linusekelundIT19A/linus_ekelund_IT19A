@@ -73,12 +73,7 @@ flex:2;
     display:flex; 
     margin:0;
 }
-.avengers {
-  flex: 1;
-  border-radius: 8px ;
-  height:150px ;
-  width: 200;
-}
+
 .articleavengers{
   flex: 50%;
 }
@@ -87,4 +82,12 @@ flex:2;
   border-radius: 8px ; 
   max-width: 50%;
 height: auto;
+}
+aside {
+  width: 25%;
+  padding-left: 15px;
+  margin-left: auto;
+  flex: 1;
+  font-style: italic;
+  background-color: rgb(12, 241, 184);
 }
