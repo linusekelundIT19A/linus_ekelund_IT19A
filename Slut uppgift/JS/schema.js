@@ -1,13 +1,13 @@
 console.log("hej")
-document.getElementById("textSection").innerHTML = "kalle";
-function readTextFile() {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "bamba.txt", true);
-    rawFile.onreadystatechange = function() {
-      if (rawFile.readyState === 4) {
-        var allText = rawFile.responseText;
-        document.getElementById("textSection").innerHTML = allText;
-      }
+let bamba = document.querySelector("#bamba")
+
+fetch("../JS/bamba.txt")
+  .then(Response => Response.text())
+  .then (text =>  {
+    text = text.split("\n")
+    console.log(text)
+    for (let i = 0; i <=4; i++){
+      console.log(text[i])
+      bamba.innerHTML += `${text[i]}<br>`
     }
-    rawFile.send();
-  }
+  })
