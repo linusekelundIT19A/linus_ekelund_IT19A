@@ -11,3 +11,4 @@ fetch("../JS/bamba.txt")
       bamba.innerHTML += `${text[i]}<br>`
     }
   })
+
